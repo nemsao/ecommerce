@@ -1,0 +1,58 @@
+/*  POST 
+
+
+ ## Sign up
+http://localhost:3000/v1/api/shop/signup  
+
+
+ ##
+
+
+http://localhost:3000/v1/api/application/json
+ headers{
+   x-api-key:'',
+
+ }
+{
+   "name":"Shop Tips",
+   "email":"ShopTip@gmail.com",
+   "password":"abc123"
+}
+
+## login 
+http://localhost:3000/v1/api/shop/login
+ headers{
+   x-api-key:'',
+   
+ }
+{
+   "name":"Shop Tips",
+   "email":"ShopTip@gmail.com",
+   "password":"abc123"
+}
+
+##logout
+http://localhost:3000/v1/api/shop/logout
+ headers{
+   x-api-key:''
+   x-client-id:''
+   authorization:''
+ }
+{
+   "name":"Shop Tips",
+   "email":"ShopTip@gmail.com",
+   "password":"abc123"
+}
+
+handle refreshtoken
+http://localhost:3000/v1/api/handlerefreshtoken
+ headers{
+   x-api-key:'',
+   
+ }
+{
+   "name":"Shop Tips",
+   "email":"ShopTip@gmail.com",
+   "password":"abc123"
+}
+*/
